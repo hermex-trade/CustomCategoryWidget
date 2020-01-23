@@ -1,7 +1,7 @@
 {
     "name"              : "CustomCategoryWidget",
     "description"       : "My first widget",
-    "namespace"         : "HelloWorld",
+    "namespace"         : "CustomCategoryWidget",
     "version"           : "0.0.1",
     "author"            : "Nicolas Andrea Almy - Hermex Trade",
     "type"              : "template",
