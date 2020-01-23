@@ -3,7 +3,7 @@
     "namespace"         : "CustomCategoryWidget",
     "type"              : "widgets",
     "version"           : "0.0.1",
-    "isClosedSource"    : "Determines if your plugin is closed source or open source",
+    "isClosedSource"    : false,
     "pluginIcon"        : "The plugin icon",
     "description"       : "The description for your plugin",
     "author"            : "Nicolas Andrea Almy - Hermex Trade",
