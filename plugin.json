@@ -1,7 +1,7 @@
 {
     "name"              : "CustomCategoryWidget",
     "namespace"         : "CustomCategoryWidget",
-    "type"              : "template",
+    "type"              : "widgets",
     "version"           : "0.0.1",
     "isClosedSource"    : "Determines if your plugin is closed source or open source",
     "pluginIcon"        : "The plugin icon",
