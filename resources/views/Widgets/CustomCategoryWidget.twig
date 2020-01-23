@@ -1,3 +1,5 @@
-<div>
-  <p>Hier sollten die Kategorien aufgelistet werden</p>
-</div>
+{% set children = services.category.getChildren(66) %}
+{% for child in children %}
+  {{child}}
+{% endfor %}
+{{}}
