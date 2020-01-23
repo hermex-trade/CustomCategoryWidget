@@ -3,7 +3,7 @@
     "description"       : "My first widget",
     "namespace"         : "HelloWorld",
     "version"           : "0.0.1",
-    "author"            : "Nicolas Andrea Almy - Hermex Trade",",
+    "author"            : "Nicolas Andrea Almy - Hermex Trade",
     "type"              : "template",
     "serviceProvider"   : "CustomCategoryWidget\\Providers\\CustomCategorySericeProvider"
 }
