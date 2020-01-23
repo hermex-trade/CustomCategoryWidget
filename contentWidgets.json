@@ -1,0 +1,11 @@
+[
+  {
+    "identifier": "CustomCategoryWidget::CustomCategoryWidget",
+    "label": "Widget.customCategoryWidgetLabel",
+    "previewImage": "",
+    "type": "static",
+    "categories": [],
+    "widgetClass": "CustomCategoryWidget\\Widgets\\CustomCategoryWidget",
+    "settings": {}
+  }
+]
