@@ -1,9 +1,20 @@
 {
     "name"              : "CustomCategoryWidget",
-    "description"       : "My first widget",
     "namespace"         : "CustomCategoryWidget",
+    "type"              : "template",
     "version"           : "0.0.1",
+    "isClosedSource"    : "Determines if your plugin is closed source or open source",
+    "pluginIcon"        : "The plugin icon",
+    "description"       : "The description for your plugin",
     "author"            : "Nicolas Andrea Almy - Hermex Trade",
-    "type"              : "widgets",
-    "serviceProvider"   : "CustomCategoryWidget\\Providers\\CustomCategoryServiceProvider"
+    "authorIcon"        : "The author icon",
+    "email"             : "Your email address",
+    "phone"             : "Your phone number",
+    "serviceProvider"   : "CustomCategoryWidget\\Providers\\CustomCategoryServiceProvider",
+    "containers"        : [],
+    "dataProviders"     : [],
+    "javaScriptFiles"   : [],
+    "require"           : [],
+    "dependencies"      : [],
+    "runOnBuild"        : []
 }
