@@ -4,7 +4,7 @@ namespace CustomCategoryWidget\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
-class CustomCategorySericeProvider extends ServiceProvider
+class CustomCategoryServiceProvider extends ServiceProvider
 {
   public function register()
   {
@@ -12,7 +12,7 @@ class CustomCategorySericeProvider extends ServiceProvider
   }
   public function boot()
   {
-    
+
   }
 }
 
