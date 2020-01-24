@@ -1,7 +1,7 @@
 {
     "name"              : "CustomCategoryWidget",
     "namespace"         : "CustomCategoryWidget",
-    "type"              : "template",
+    "type"              : "widget",
     "version"           : "0.0.1",
     "pluginIcon"        : "",
     "description"       : "A widget for custom categories",
