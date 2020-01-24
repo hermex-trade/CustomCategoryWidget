@@ -1,8 +1,9 @@
+{% set tests = ["test1", "test2", "test3"] %}
 {% import "Ceres::Widgets.Helper.TwigBuilder" as Twig %}
 {{ Twig.set("children", Twig.call("services.category.getChildren(66)"))}}
 <div>
   Kategorien
 </div>
-{% for child in children %}
-  {{child}}
+{% for test in tests %}
+  {{test}}
 {% endfor %}
