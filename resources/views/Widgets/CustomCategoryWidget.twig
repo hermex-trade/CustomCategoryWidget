@@ -1,3 +1,15 @@
 {% import "Ceres::Widgets.Helper.TwigBuilder" as Twig %}
+
+{# Get the id of the current category #}
 {{ Twig.set("currentCategoryId", Twig.call("services.category.getCurrentCategory().id")}}
+
+{# Get the subcategories with the current category id #}
+{{ Twig.set("subCategories", Twig.call("services.category.getChildren", "currentCategoryId"))}}
+
+{# Print the current category id #}
 {{ Twig.print("currentCategoryId") }}
+
+{# Print all subcategories #}
+{% for subCategorie in subCategories %}
+  {{Twig.print("subCategorie")}}
+{% endfor %}
