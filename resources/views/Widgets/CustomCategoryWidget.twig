@@ -1,5 +1,3 @@
-{% set kategorie = "kategorie1" %}
-<div>
-  Kategorie
-</div>
-<span>{{kategorie}}</span>
+{% import "Ceres::Widgets.Helper.TwigBuilder" as Twig %}
+{{ Twig.set("currentCategoryId", Twig.call("services.category.getCurrentCategory().id")}}
+{{ Twig.print("currentCategoryId") }}
