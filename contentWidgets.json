@@ -2,7 +2,7 @@
   {
     "identifier": "CustomCategoryWidget::CustomCategoryWidget",
     "label": "Widget.customCategoryWidgetLabel",
-    "type": "static",
+    "type": "default",
     "categories": [],
     "widgetClass": "CustomCategoryWidget\\Widgets\\CustomCategoryWidget",
     "settings": {}
